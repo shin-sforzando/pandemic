@@ -1,0 +1,10 @@
+# gdal
+matplotlib
+networkx
+nose
+numpy
+pandas
+pydot
+pygraphviz
+pyyaml
+scipy
