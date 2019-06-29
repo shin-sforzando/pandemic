@@ -1,0 +1,2 @@
+# pandemic
+To analyze Pandemic
