@@ -1,93 +1,93 @@
-Source,Target,Type,Id,Label,timeset,Weight
-0,1,Undirected,0,,,1
-0,2,Undirected,1,,,1
-0,3,Undirected,2,,,1
-1,3,Undirected,3,,,1
-1,4,Undirected,4,,,1
-1,8,Undirected,5,,,1
-2,4,Undirected,6,,,1
-2,5,Undirected,7,,,1
-2,6,Undirected,8,,,1
-2,7,Undirected,9,,,1
-3,5,Undirected,10,,,1
-3,9,Undirected,11,,,1
-4,8,Undirected,12,,,1
-5,6,Undirected,13,,,1
-5,9,Undirected,14,,,1
-5,10,Undirected,15,,,1
-6,7,Undirected,16,,,1
-6,21,Undirected,17,,,1
-7,11,Undirected,18,,,1
-7,12,Undirected,19,,,1
-8,13,Undirected,20,,,1
-8,14,Undirected,21,,,1
-9,10,Undirected,22,,,1
-9,15,Undirected,23,,,1
-9,16,Undirected,24,,,1
-10,17,Undirected,25,,,1
-11,18,Undirected,26,,,1
-11,19,Undirected,27,,,1
-11,20,Undirected,28,,,1
-12,21,Undirected,29,,,1
-12,22,Undirected,30,,,1
-12,23,Undirected,31,,,1
-12,29,Undirected,32,,,1
-13,14,Undirected,33,,,1
-13,24,Undirected,34,,,1
-13,25,Undirected,35,,,1
-14,15,Undirected,36,,,1
-14,24,Undirected,37,,,1
-14,26,Undirected,38,,,1
-15,16,Undirected,39,,,1
-15,27,Undirected,40,,,1
-18,22,Undirected,41,,,1
-19,20,Undirected,42,,,1
-19,28,Undirected,43,,,1
-20,22,Undirected,44,,,1
-20,28,Undirected,45,,,1
-20,29,Undirected,46,,,1
-21,30,Undirected,47,,,1
-22,29,Undirected,48,,,1
-23,29,Undirected,49,,,1
-23,30,Undirected,50,,,1
-23,31,Undirected,51,,,1
-24,25,Undirected,52,,,1
-24,26,Undirected,53,,,1
-24,32,Undirected,54,,,1
-25,32,Undirected,55,,,1
-25,33,Undirected,56,,,1
-26,34,Undirected,57,,,1
-26,35,Undirected,58,,,1
-27,36,Undirected,59,,,1
-27,42,Undirected,60,,,1
-29,31,Undirected,61,,,1
-29,37,Undirected,62,,,1
-30,31,Undirected,63,,,1
-30,38,Undirected,64,,,1
-31,37,Undirected,65,,,1
-31,38,Undirected,66,,,1
-32,35,Undirected,67,,,1
-33,35,Undirected,68,,,1
-33,39,Undirected,69,,,1
-34,35,Undirected,70,,,1
-34,40,Undirected,71,,,1
-34,41,Undirected,72,,,1
-34,42,Undirected,73,,,1
-35,39,Undirected,74,,,1
-35,40,Undirected,75,,,1
-36,42,Undirected,76,,,1
-36,43,Undirected,77,,,1
-37,38,Undirected,78,,,1
-37,44,Undirected,79,,,1
-38,44,Undirected,80,,,1
-38,47,Undirected,81,,,1
-39,45,Undirected,82,,,1
-40,41,Undirected,83,,,1
-40,45,Undirected,84,,,1
-40,46,Undirected,85,,,1
-41,46,Undirected,86,,,1
-42,43,Undirected,87,,,1
-44,45,Undirected,88,,,1
-44,46,Undirected,89,,,1
-44,47,Undirected,90,,,1
-46,47,Undirected,91,,,1
+Source        ,Target        ,Type
+Algiers       ,Cairo         ,Undirected
+Algiers       ,Istanbul      ,Undirected
+Atlanta       ,Washington    ,Undirected
+Atlanta       ,Chicago       ,Undirected
+Atlanta       ,Miami         ,Undirected
+Bagdad        ,Riyadh        ,Undirected
+Bagdad        ,Teheran       ,Undirected
+Bagdad        ,Karachi       ,Undirected
+Bangkok       ,Kolkata       ,Undirected
+Bangkok       ,Chennai       ,Undirected
+Bogota        ,Lima          ,Undirected
+Bogota        ,Sao Paulo     ,Undirected
+Bogota        ,Buenos Aires  ,Undirected
+Cairo         ,Istanbul      ,Undirected
+Cairo         ,Bagdad        ,Undirected
+Cairo         ,Riyadh        ,Undirected
+Cairo         ,Khartoum      ,Undirected
+Chennai       ,Delhi         ,Undirected
+Chennai       ,Mumbai        ,Undirected
+Chicago       ,Montreal      ,Undirected
+Chicago       ,Mexico City   ,Undirected
+Chicago       ,Los Angeles   ,Undirected
+Chicago       ,San Francisco ,Undirected
+Delhi         ,Teheran       ,Undirected
+Delhi         ,Karachi       ,Undirected
+Delhi         ,Mumbai        ,Undirected
+Essen         ,Milano        ,Undirected
+Essen         ,St. Petersburg,Undirected
+Ho Chi Minh   ,Hong Kong     ,Undirected
+Ho Chi Minh   ,Jakarta       ,Undirected
+Ho Chi Minh   ,Bangkok       ,Undirected
+Hong Kong     ,Bangkok       ,Undirected
+Hong Kong     ,Kolkata       ,Undirected
+Istanbul      ,Moskva        ,Undirected
+Istanbul      ,Bagdad        ,Undirected
+Jakarta       ,Bangkok       ,Undirected
+Jakarta       ,Chennai       ,Undirected
+Karachi       ,Mumbai        ,Undirected
+Khartoum      ,Johannesburg  ,Undirected
+Kinshasa      ,Khartoum      ,Undirected
+Kinshasa      ,Johannesburg  ,Undirected
+Kolkata       ,Chennai       ,Undirected
+Kolkata       ,Delhi         ,Undirected
+Lagos         ,Kinshasa      ,Undirected
+Lagos         ,Khartoum      ,Undirected
+Lima          ,Santiago      ,Undirected
+London        ,Madrid        ,Undirected
+London        ,Paris         ,Undirected
+London        ,Essen         ,Undirected
+Los Angeles   ,San Francisco ,Undirected
+Los Angeles   ,Sydney        ,Undirected
+Madrid        ,Sao Paulo     ,Undirected
+Madrid        ,Paris         ,Undirected
+Madrid        ,Algiers       ,Undirected
+Manila        ,Sydney        ,Undirected
+Manila        ,Taipei        ,Undirected
+Manila        ,Ho Chi Minh   ,Undirected
+Manila        ,Hong Kong     ,Undirected
+Mexico City   ,Los Angeles   ,Undirected
+Mexico City   ,Bogota        ,Undirected
+Mexico City   ,Lima          ,Undirected
+Miami         ,Mexico City   ,Undirected
+Miami         ,Bogota        ,Undirected
+Milano        ,Istanbul      ,Undirected
+Montreal      ,New York      ,Undirected
+Moskva        ,Teheran       ,Undirected
+New York      ,London        ,Undirected
+New York      ,Madrid        ,Undirected
+Osaka         ,Taipei        ,Undirected
+Paris         ,Essen         ,Undirected
+Paris         ,Algiers       ,Undirected
+Paris         ,Milano        ,Undirected
+Riyadh        ,Karachi       ,Undirected
+San Francisco ,Tokyo         ,Undirected
+San Francisco ,Manila        ,Undirected
+Sao Paulo     ,Buenos Aires  ,Undirected
+Sao Paulo     ,Lagos         ,Undirected
+Seaoul        ,Shanghai      ,Undirected
+Seaoul        ,Beijing       ,Undirected
+Shanghai      ,Taipei        ,Undirected
+Shanghai      ,Beijing       ,Undirected
+Shanghai      ,Hong Kong     ,Undirected
+St. Petersburg,Istanbul      ,Undirected
+St. Petersburg,Moskva        ,Undirected
+Sydney        ,Jakarta       ,Undirected
+Taipei        ,Hong Kong     ,Undirected
+Tokyo         ,Osaka         ,Undirected
+Tokyo         ,Seaoul        ,Undirected
+Tokyo         ,Shanghai      ,Undirected
+Washington    ,Miami         ,Undirected
+Washington    ,Montreal      ,Undirected
+Washington    ,New York      ,Undirected
