@@ -1,49 +1,49 @@
-Id,Name          ,Color
-0 ,Atlanta       ,Blue
-1 ,Chicago       ,Blue
-2 ,Essen         ,Blue
-3 ,London        ,Blue
-4 ,Madrid        ,Blue
-5 ,Milano        ,Blue
-6 ,Montreal      ,Blue
-7 ,New York      ,Blue
-8 ,Paris         ,Blue
-9 ,San Francisco ,Blue
-10,St. Petersburg,Blue
-11,Washington    ,Blue
-12,Algiers       ,Black
-13,Bagdad        ,Black
-14,Cairo         ,Black
-15,Chennai       ,Black
-16,Delhi         ,Black
-17,Istanbul      ,Black
-18,Karachi       ,Black
-19,Kolkata       ,Black
-20,Moskva        ,Black
-21,Mumbai        ,Black
-22,Riyadh        ,Black
-23,Teheran       ,Black
-24,Bogota        ,Yellow
-25,Buenos Aires  ,Yellow
-26,Johannesburg  ,Yellow
-27,Khartoum      ,Yellow
-28,Kinshasa      ,Yellow
-29,Lagos         ,Yellow
-30,Lima          ,Yellow
-31,Los Angeles   ,Yellow
-32,Mexico City   ,Yellow
-33,Miami         ,Yellow
-34,Santiago      ,Yellow
-35,Sao Paulo     ,Yellow
-36,Bangkok       ,Red
-37,Beijing       ,Red
-38,Ho Chi Minh   ,Red
-39,Hong Kong     ,Red
-40,Jakarta       ,Red
-41,Manila        ,Red
-42,Osaka         ,Red
-43,Seaoul        ,Red
-44,Shanghai      ,Red
-45,Sydney        ,Red
-46,Taipei        ,Red
-47,Tokyo         ,Red
+Id,Name,Color
+0,Atlanta,Blue
+1,Chicago,Blue
+2,Essen,Blue
+3,London,Blue
+4,Madrid,Blue
+5,Milano,Blue
+6,Montreal,Blue
+7,NewYork,Blue
+8,Paris,Blue
+9,SanFrancisco,Blue
+10,St.Petersburg,Blue
+11,Washington,Blue
+12,Algiers,Black
+13,Bagdad,Black
+14,Cairo,Black
+15,Chennai,Black
+16,Delhi,Black
+17,Istanbul,Black
+18,Karachi,Black
+19,Kolkata,Black
+20,Moskva,Black
+21,Mumbai,Black
+22,Riyadh,Black
+23,Teheran,Black
+24,Bogota,Yellow
+25,BuenosAires,Yellow
+26,Johannesburg,Yellow
+27,Khartoum,Yellow
+28,Kinshasa,Yellow
+29,Lagos,Yellow
+30,Lima,Yellow
+31,LosAngeles,Yellow
+32,MexicoCity,Yellow
+33,Miami,Yellow
+34,Santiago,Yellow
+35,SaoPaulo,Yellow
+36,Bangkok,Red
+37,Beijing,Red
+38,HoChiMinh,Red
+39,HongKong,Red
+40,Jakarta,Red
+41,Manila,Red
+42,Osaka,Red
+43,Seoul,Red
+44,Shanghai,Red
+45,Sydney,Red
+46,Taipei,Red
+47,Tokyo,Red

@@ -3,12 +3,18 @@ from pprint import pprint
 import networkx as nx
 import pandas as pd
 
+def visualize(graph):
+    ''' Visualize '''
+    nx.nx_agraph.view_pygraphviz(graph, prog='fdp')
 
-def main():
-    G = nx.Graph()
+
+if __name__ == '__main__':
+    graph = nx.Graph()
+
+    ''' import cities '''
     cities = pd.read_csv('data/city.csv')
     for idx, row in cities.iterrows():
-        gviz_attr = {
+        graphviz_attr = {
             'color': row['Color'],
             'fillcolor': row['Color'],
             'fontcolor': 'grey',
@@ -17,13 +23,27 @@ def main():
             'style': 'filled',
             'width': 1.5, 'height': 1.5
         }
-        G.add_node(row['Name'], **gviz_attr)
+        graph.add_node(row['Name'], **graphviz_attr)
+
+    ''' import edges '''
     edges = pd.read_csv('data/edge.csv')
     for idx, row in edges.iterrows():
-        G.add_edge(row['Source'], row['Target'])
-    pprint(nx.single_source_shortest_path(G, source='Atlanta'))
-    nx.nx_agraph.view_pygraphviz(G, prog='fdp')
+        graph.add_edge(row['Source'], row['Target'])
 
+    ''' print shortest path from Atlanta to each cities '''
+    # print(nx.single_source_shortest_path(graph, source='Atlanta'))
+    pprint(nx.single_source_shortest_path(graph, source='Teheran'))
 
-if __name__ == "__main__":
-    main()
+    # print(graph.number_of_nodes())
+    # print(graph.number_of_edges())
+    # print(graph.number_of_selfloops())
+    # print('Diameter', nx.diameter(graph))
+    # print('Degree', nx.degree(graph))
+    # pprint(nx.center(graph))
+    # pprint(sorted(nx.betweenness_centrality(graph).items(), key=lambda x: x[1], reverse=True))
+    # pprint(sorted(nx.eigenvector_centrality(graph, max_iter=200).items(), key=lambda x: x[1], reverse=True))
+    # pprint(sorted(nx.closeness_centrality(graph).items(), key=lambda x: x[1], reverse=True))
+    # pprint(sorted(nx.eccentricity(graph).items(), key=lambda x: x[1], reverse=True))
+    # pprint(sorted(nx.pagerank(graph).items(), key=lambda x: x[1], reverse=True))
+
+    visualize(graph)

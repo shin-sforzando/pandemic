@@ -1,93 +1,93 @@
-Source        ,Target        ,Type
-Algiers       ,Cairo         ,Undirected
-Algiers       ,Istanbul      ,Undirected
-Atlanta       ,Washington    ,Undirected
-Atlanta       ,Chicago       ,Undirected
-Atlanta       ,Miami         ,Undirected
-Bagdad        ,Riyadh        ,Undirected
-Bagdad        ,Teheran       ,Undirected
-Bagdad        ,Karachi       ,Undirected
-Bangkok       ,Kolkata       ,Undirected
-Bangkok       ,Chennai       ,Undirected
-Bogota        ,Lima          ,Undirected
-Bogota        ,Sao Paulo     ,Undirected
-Bogota        ,Buenos Aires  ,Undirected
-Cairo         ,Istanbul      ,Undirected
-Cairo         ,Bagdad        ,Undirected
-Cairo         ,Riyadh        ,Undirected
-Cairo         ,Khartoum      ,Undirected
-Chennai       ,Delhi         ,Undirected
-Chennai       ,Mumbai        ,Undirected
-Chicago       ,Montreal      ,Undirected
-Chicago       ,Mexico City   ,Undirected
-Chicago       ,Los Angeles   ,Undirected
-Chicago       ,San Francisco ,Undirected
-Delhi         ,Teheran       ,Undirected
-Delhi         ,Karachi       ,Undirected
-Delhi         ,Mumbai        ,Undirected
-Essen         ,Milano        ,Undirected
-Essen         ,St. Petersburg,Undirected
-Ho Chi Minh   ,Hong Kong     ,Undirected
-Ho Chi Minh   ,Jakarta       ,Undirected
-Ho Chi Minh   ,Bangkok       ,Undirected
-Hong Kong     ,Bangkok       ,Undirected
-Hong Kong     ,Kolkata       ,Undirected
-Istanbul      ,Moskva        ,Undirected
-Istanbul      ,Bagdad        ,Undirected
-Jakarta       ,Bangkok       ,Undirected
-Jakarta       ,Chennai       ,Undirected
-Karachi       ,Mumbai        ,Undirected
-Khartoum      ,Johannesburg  ,Undirected
-Kinshasa      ,Khartoum      ,Undirected
-Kinshasa      ,Johannesburg  ,Undirected
-Kolkata       ,Chennai       ,Undirected
-Kolkata       ,Delhi         ,Undirected
-Lagos         ,Kinshasa      ,Undirected
-Lagos         ,Khartoum      ,Undirected
-Lima          ,Santiago      ,Undirected
-London        ,Madrid        ,Undirected
-London        ,Paris         ,Undirected
-London        ,Essen         ,Undirected
-Los Angeles   ,San Francisco ,Undirected
-Los Angeles   ,Sydney        ,Undirected
-Madrid        ,Sao Paulo     ,Undirected
-Madrid        ,Paris         ,Undirected
-Madrid        ,Algiers       ,Undirected
-Manila        ,Sydney        ,Undirected
-Manila        ,Taipei        ,Undirected
-Manila        ,Ho Chi Minh   ,Undirected
-Manila        ,Hong Kong     ,Undirected
-Mexico City   ,Los Angeles   ,Undirected
-Mexico City   ,Bogota        ,Undirected
-Mexico City   ,Lima          ,Undirected
-Miami         ,Mexico City   ,Undirected
-Miami         ,Bogota        ,Undirected
-Milano        ,Istanbul      ,Undirected
-Montreal      ,New York      ,Undirected
-Moskva        ,Teheran       ,Undirected
-New York      ,London        ,Undirected
-New York      ,Madrid        ,Undirected
-Osaka         ,Taipei        ,Undirected
-Paris         ,Essen         ,Undirected
-Paris         ,Algiers       ,Undirected
-Paris         ,Milano        ,Undirected
-Riyadh        ,Karachi       ,Undirected
-San Francisco ,Tokyo         ,Undirected
-San Francisco ,Manila        ,Undirected
-Sao Paulo     ,Buenos Aires  ,Undirected
-Sao Paulo     ,Lagos         ,Undirected
-Seaoul        ,Shanghai      ,Undirected
-Seaoul        ,Beijing       ,Undirected
-Shanghai      ,Taipei        ,Undirected
-Shanghai      ,Beijing       ,Undirected
-Shanghai      ,Hong Kong     ,Undirected
-St. Petersburg,Istanbul      ,Undirected
-St. Petersburg,Moskva        ,Undirected
-Sydney        ,Jakarta       ,Undirected
-Taipei        ,Hong Kong     ,Undirected
-Tokyo         ,Osaka         ,Undirected
-Tokyo         ,Seaoul        ,Undirected
-Tokyo         ,Shanghai      ,Undirected
-Washington    ,Miami         ,Undirected
-Washington    ,Montreal      ,Undirected
-Washington    ,New York      ,Undirected
+Id,Source,Target,Type
+0,Algiers,Cairo,Undirected
+1,Algiers,Istanbul,Undirected
+2,Atlanta,Washington,Undirected
+3,Atlanta,Chicago,Undirected
+4,Atlanta,Miami,Undirected
+5,Bagdad,Riyadh,Undirected
+6,Bagdad,Teheran,Undirected
+7,Bagdad,Karachi,Undirected
+8,Bangkok,Kolkata,Undirected
+9,Bangkok,Chennai,Undirected
+10,Bogota,Lima,Undirected
+11,Bogota,SaoPaulo,Undirected
+12,Bogota,BuenosAires,Undirected
+13,Cairo,Istanbul,Undirected
+14,Cairo,Bagdad,Undirected
+15,Cairo,Riyadh,Undirected
+16,Cairo,Khartoum,Undirected
+17,Chennai,Delhi,Undirected
+18,Chennai,Mumbai,Undirected
+19,Chicago,Montreal,Undirected
+20,Chicago,MexicoCity,Undirected
+21,Chicago,LosAngeles,Undirected
+22,Chicago,SanFrancisco,Undirected
+23,Delhi,Teheran,Undirected
+24,Delhi,Karachi,Undirected
+25,Delhi,Mumbai,Undirected
+26,Essen,Milano,Undirected
+27,Essen,St.Petersburg,Undirected
+28,HoChiMinh,HongKong,Undirected
+29,HoChiMinh,Jakarta,Undirected
+30,HoChiMinh,Bangkok,Undirected
+31,HongKong,Bangkok,Undirected
+32,HongKong,Kolkata,Undirected
+33,Istanbul,Moskva,Undirected
+34,Istanbul,Bagdad,Undirected
+35,Jakarta,Bangkok,Undirected
+36,Jakarta,Chennai,Undirected
+37,Karachi,Mumbai,Undirected
+38,Khartoum,Johannesburg,Undirected
+39,Kinshasa,Khartoum,Undirected
+40,Kinshasa,Johannesburg,Undirected
+41,Kolkata,Chennai,Undirected
+42,Kolkata,Delhi,Undirected
+43,Lagos,Kinshasa,Undirected
+44,Lagos,Khartoum,Undirected
+45,Lima,Santiago,Undirected
+46,London,Madrid,Undirected
+47,London,Paris,Undirected
+48,London,Essen,Undirected
+49,LosAngeles,SanFrancisco,Undirected
+50,LosAngeles,Sydney,Undirected
+51,Madrid,SaoPaulo,Undirected
+52,Madrid,Paris,Undirected
+53,Madrid,Algiers,Undirected
+54,Manila,Sydney,Undirected
+55,Manila,Taipei,Undirected
+56,Manila,HoChiMinh,Undirected
+57,Manila,HongKong,Undirected
+58,MexicoCity,LosAngeles,Undirected
+59,MexicoCity,Bogota,Undirected
+60,MexicoCity,Lima,Undirected
+61,Miami,MexicoCity,Undirected
+62,Miami,Bogota,Undirected
+63,Milano,Istanbul,Undirected
+64,Montreal,NewYork,Undirected
+65,Moskva,Teheran,Undirected
+66,NewYork,London,Undirected
+67,NewYork,Madrid,Undirected
+68,Osaka,Taipei,Undirected
+69,Paris,Essen,Undirected
+70,Paris,Algiers,Undirected
+71,Paris,Milano,Undirected
+72,Riyadh,Karachi,Undirected
+73,SanFrancisco,Tokyo,Undirected
+74,SanFrancisco,Manila,Undirected
+75,SaoPaulo,BuenosAires,Undirected
+76,SaoPaulo,Lagos,Undirected
+77,Seoul,Shanghai,Undirected
+78,Seoul,Beijing,Undirected
+79,Shanghai,Taipei,Undirected
+80,Shanghai,Beijing,Undirected
+81,Shanghai,HongKong,Undirected
+82,St.Petersburg,Istanbul,Undirected
+83,St.Petersburg,Moskva,Undirected
+84,Sydney,Jakarta,Undirected
+85,Taipei,HongKong,Undirected
+86,Tokyo,Osaka,Undirected
+87,Tokyo,Seoul,Undirected
+88,Tokyo,Shanghai,Undirected
+89,Washington,Miami,Undirected
+90,Washington,Montreal,Undirected
+91,Washington,NewYork,Undirected
